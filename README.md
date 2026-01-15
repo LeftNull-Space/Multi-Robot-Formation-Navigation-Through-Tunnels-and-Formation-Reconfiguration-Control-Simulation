@@ -27,10 +27,10 @@
 ### 1. 队形演化关键阶段
 | 时间点 | 队形状态 | 图片 |
 |--------|----------|------|
-| t=0s   | 初始圆形队形 | ![初始队形](docs/Simulation Result Visualization/formation_evolution_1.png) |
-| t=20s  | 通道内线性排队 | ![线性队形](docs/Simulation Result Visualization/formation_evolution_2.png) |
-| t=30s  | 出口圆形重构 | ![重构队形](docs/Simulation Result Visualization/formation_evolution_3.png) |
-| t=40s  | 队形重构完成 | ![最终队形](docs/Simulation Result Visualization/formation_evolution_4.png) |
+| t=0s   | 初始圆形队形 | ![初始队形](docs/Simulation_Result_Visualization/formation_evolution_1.png) |
+| t=20s  | 通道内线性排队 | ![线性队形](docs/Simulation_Result_Visualization/formation_evolution_2.png) |
+| t=30s  | 出口圆形重构 | ![重构队形](docs/Simulation_Result_Visualization/formation_evolution_3.png) |
+| t=40s  | 队形重构完成 | ![最终队形](docs/Simulation_Result_Visualization/formation_evolution_4.png) |
 
 ### 2. 关键性能指标（优于设计要求）
 | 指标 | 测量值 | 设计要求 |
@@ -41,10 +41,10 @@
 | 总任务时间 | 35.6s | <200s（超时阈值） |
 
 ### 3. 性能趋势图
-![性能指标](docs/Simulation Result Visualization/performance_curves.png)
+![性能指标](docs/Simulation_Result_Visualization/performance_curves.png)
 - 蓝色：RMS误差（最终0.005m）；绿色：最小间距（最低0.522m，无碰撞）；红色：最大速度（≤0.995m/s）。
 
 
 ### 4. 视频演示
 点击图片查看完整仿真视频：
-[![仿真视频封面](docs/Simulation Result Visualization/formation_custom_reassign_with_topology.png)](https://www.bilibili.com/video/BV12VkcBDEXG/?vd_source=408c8ac6c7b1898983e992b2e3fef192)
+[![仿真视频封面](docs/Simulation_Result_Visualization/formation_custom_reassign_with_topology.png)](https://www.bilibili.com/video/BV12VkcBDEXG/?vd_source=408c8ac6c7b1898983e992b2e3fef192)
